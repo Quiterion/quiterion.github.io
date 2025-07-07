@@ -1,0 +1,20 @@
+
+# Site settings
+title: Jamie Denovan
+author: Jamie Denovan
+email: jamie.m.denovan@gmail.com
+baseurl: ""
+url: "https://quiterion.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+
+# Social media links
+social:
+  github: https://github.com/quiterion
+  linkedin: https://linkedin.com/in/jamie-denovan
+  email: jamie.m.denovan@gmail.com
+  twitter: https://X.com/quiterionus

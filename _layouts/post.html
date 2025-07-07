@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="section-header">
+    <span class="prompt">{{ site.terminal_prompt }}</span>
+    <span>cat ~/posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}.md</span>
+</div>
+<div class="box">
+    <div class="post-meta">
+        <p>Author: <span class="text-secondary">{{ page.author | default: site.author }}</span></p>
+        <p>Date: <span class="text-secondary">{{ page.date | date: "%Y-%m-%d %H:%M:%S" }}</span></p>
+        <p>Categories: <span class="text-secondary">{{ page.categories | join: ', ' }}</span></p>j
+    </div>
+    <hr class="terminal-hr">
+    {{ content }}
+</div>

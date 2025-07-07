@@ -1,0 +1,24 @@
+<nav class="terminal-nav">
+    <div class="nav-left">
+    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.author }}</a>
+    </div>
+    <div class="nav-right">
+        <div class="social-links">
+            <a href="{{ site.social.github }}" target="_blank" title="GitHub">
+                <img src="{{ '/assets/images/icons/github.svg' | relative_url }}" alt="GitHub" class="icon">
+            </a>
+            <a href="{{ site.social.linkedin }}" target="_blank" title="LinkedIn">
+                <img src="{{ '/assets/images/icons/linkedin.svg' | relative_url }}" alt="LinkedIn" class="icon">
+            </a>
+            <a href="mailto:{{ site.social.email }}" title="Email">
+                <img src="{{ '/assets/images/icons/email.svg' | relative_url }}" alt="Email" class="icon">
+            </a>
+            <a href="{{ site.social.twitter }}" target="_blank" title="Twitter/X">
+                <img src="{{ '/assets/images/icons/twitter.svg' | relative_url }}" alt="Twitter/X" class="icon">
+            </a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" title="Toggle theme" data-base-path="{{ '/assets/images/icons' | relative_url }}">
+            <img src="{{ '/assets/images/icons/moon.svg' | relative_url }}" alt="Toggle theme" class="icon">
+        </button>
+    </div>
+</nav>
