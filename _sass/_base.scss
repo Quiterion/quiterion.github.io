@@ -1,21 +1,5 @@
-// Dark Theme (default)
+// Light Theme (default)
 :root {
-  --bg-dark: #0a0e14;
-  --bg-medium: #0d1117;
-  --text-primary: #00b3b3;
-  --text-secondary: #008888;
-  --text-dim: #005555;
-  --accent: #00cccc;
-  --border: #008888;
-  --error: #ff4444;
-  --success: #44ff44;
-  --warning: #ffaa44;
-  --icon-filter: invert(70%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(180%) contrast(100%);
-  --icon-filter-hover: invert(85%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(115%) contrast(100%);
-}
-
-// Light Theme
-[data-theme="light"] {
   --bg-dark: #f8f9fa;
   --bg-medium: #ffffff;
   --text-primary: #000000;
@@ -30,6 +14,21 @@
   --icon-filter-hover: invert(40%) sepia(100%) saturate(2500%) hue-rotate(155deg) brightness(105%) contrast(120%);
 }
 
+// Dark Theme
+[data-theme="dark"] {
+  --bg-dark: #0a0e14;
+  --bg-medium: #0d1117;
+  --text-primary: #00b3b3;
+  --text-secondary: #008888;
+  --text-dim: #005555;
+  --accent: #00cccc;
+  --border: #008888;
+  --error: #ff4444;
+  --success: #44ff44;
+  --warning: #ffaa44;
+  --icon-filter: invert(70%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(180%) contrast(100%);
+  --icon-filter-hover: invert(85%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(115%) contrast(100%);
+}
 // Reset
 * {
   box-sizing: border-box;
