@@ -16,4 +16,5 @@ Hi! I'm Jamie - a 22-year-old software engineer based in Sydney, currently build
 - Anthropology & Sociology
   - Interested in human evolutionary history and postmodernist perspectives.
 
+
 If you share an interest in any of these areas or would simply like to connect, please feel free to [reach out](mailto:jamie.m.denovan@gmail.com).
