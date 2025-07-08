@@ -11,7 +11,7 @@
   --success: #28a745;
   --warning: #ffc107;
   --icon-filter: ; //  invert(40%) sepia(100%) saturate(2000%) hue-rotate(155deg) brightness(95%) contrast(110%);
-  --icon-filter-hover: invert(40%) sepia(100%) saturate(2500%) hue-rotate(155deg) brightness(105%) contrast(120%);
+  --icon-filter-hover: invert(40%) sepia(100%) saturate(2500%) hue-rotate(155deg) brightness(80%) contrast(120%);
 }
 
 // Dark Theme
@@ -38,7 +38,7 @@
 
 // Base Styles
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:IBM Plex Mono,monospace;
   background-color: var(--bg-dark);
   color: var(--text-primary);
   line-height: 1.6;
