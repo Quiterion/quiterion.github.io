@@ -4,7 +4,7 @@ title: Jamie Denovan
 author: Jamie Denovan
 email: jamie.m.denovan@gmail.com
 baseurl: ""
-url: "https://quiterion.github.io"
+#url: "https://quiterion.github.io"
 
 # Build settings
 markdown: kramdown
