@@ -161,6 +161,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2)
   jekyll-feed (~> 0.12)
+  jekyll-sass-converter
   jekyll-seo-tag
 
 BUNDLED WITH
