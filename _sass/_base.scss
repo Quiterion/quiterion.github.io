@@ -44,7 +44,8 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   overflow-x: hidden;
-  padding: 20px 10%;
+  padding: 20px 5%;
+  font-weight: 500;
 }
 
 a {
@@ -160,10 +161,10 @@ li {
 }
 
 .wrapper {
-  max-width: 90%;
+  max-width: 1250px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 30px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 40px;
+  padding-right: 5%;
+  padding-left: 5%;
 }
