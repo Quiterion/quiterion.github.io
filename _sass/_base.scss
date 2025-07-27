@@ -29,6 +29,7 @@
   --icon-filter: invert(70%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(180%) contrast(100%);
   --icon-filter-hover: invert(85%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(115%) contrast(100%);
 }
+
 // Reset
 * {
   box-sizing: border-box;
@@ -38,7 +39,7 @@
 
 // Base Styles
 body {
-  font-family:IBM Plex Mono,monospace;
+  font-family: IBM Plex Mono, monospace;
   background-color: var(--bg-dark);
   color: var(--text-primary);
   line-height: 1.6;
@@ -52,7 +53,7 @@ a {
   color: var(--text-primary);
   text-decoration: underline;
   text-decoration-style: dashed;
-  transition: color 0.3s;
+  transition: color 0.0s;
 
   &:hover {
     color: var(--accent);
@@ -142,7 +143,7 @@ ol {
   list-style-type: disc;
   margin-block-start: 0em;
   margin-block-end: 1em;
-  padding-inline-start: 40px;
+  padding-inline-start: 20px;
 }
 
 ol {
@@ -161,7 +162,7 @@ li {
 }
 
 .wrapper {
-  max-width: 1250px;
+  max-width: 800px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 40px;

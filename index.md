@@ -4,11 +4,11 @@ layout: page
 
 ## About Me
 
-Hi! I'm Jamie - a 22-year-old software engineer based in Sydney, currently building distributed systems at TikTok. 
+Hi! I'm Jamie - a 22-year-old software engineer based in Sydney, currently building platforms for distributed multimedia processing at ByteDance. 
 
 ### Interests
 - Mechanistic Interpretability
-  - Exploring model diffing, circuit discovery, and alignment-focused downstream applications.
+  - Exploring model diffing, circuit discovery, and alignment-oriented downstream applications.
 
 - Retro Science Fiction
   - Immersed in works by Ursula K. Le Guin, Isaac Asimov, Iain M. Banks and Arthur C. Clarke.
